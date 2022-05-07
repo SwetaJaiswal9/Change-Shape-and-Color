@@ -1,0 +1,87 @@
+body{
+
+	background-color: lightgrey;
+}
+
+h1{
+	text-transform: uppercase;
+	background-color: darkslategrey;
+	font-family: monospace;
+	color: white;
+	text-align: center;
+	font-size: 2.2rem;
+	padding: 20px;
+}
+
+#container{
+
+	background-color: purple;
+	height: 15rem;
+	width: 15rem;
+	margin: auto;
+	margin-top: 2rem;
+	border-radius: 50%;
+	position: relative;
+}
+
+#btn-container{
+
+	display: flex;
+	flex-direction: column;
+}
+
+.btn{
+
+	height: 4rem;
+	width: 15rem;
+	color: white;
+	background-color: dimgrey;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+	font-family: monospace;
+	margin: auto;
+	margin-top: 2rem;
+}
+
+#square{
+
+	height: 10rem;
+	width: 10rem;
+	background-color: #ded2d2;
+	position: absolute;
+	top: 2.5rem;
+	left: 2.5rem;
+}
+
+#triangle{
+
+	height: 0;
+	width: 0;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-bottom: 150px solid transparent;
+	position: absolute;
+	top: 2.2rem;
+	left: 2.9rem;
+}
+
+#circle{
+
+	height: 10rem;
+	width: 10rem;
+	background-color: transparent;
+	position: absolute;
+	top: 2.5rem;
+	left: 2.5rem;
+	border-radius: 50%;
+}
+
+#rectangle{
+
+	height: 7rem;
+	width: 10rem;
+	background-color: transparent;
+	position: absolute;
+	top: 4rem;
+	left: 2.5rem;
+}
