@@ -2,7 +2,7 @@
 
 ( https://swetajaiswal9.github.io/Change-Shape-and-Color/ )
 
-Shape and Color Changer using javascript
+Shape and Color Changer using JavaScript
 
 # Screenshot
 
